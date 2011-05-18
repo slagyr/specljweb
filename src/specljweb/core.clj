@@ -8,7 +8,7 @@
 
 (defroutes specljweb-routes
   (GET "/" [] (render-template "index"))
-  (controller-router 'cleancoders.controller)
+  (controller-router `specljweb.controller)
   (not-found (render-template "not_found" :template-root "specljweb/view" :ns `specljweb.view.view-helpers)))
 
 (def app-handler
