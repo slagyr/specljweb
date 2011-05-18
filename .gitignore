@@ -2,3 +2,5 @@
 lib/*
 classes/*
 pom.xml
+war
+specljweb*.jar
