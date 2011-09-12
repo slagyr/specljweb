@@ -1,0 +1,94 @@
+html, body, div {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#head-container {
+	background: #ffffff;
+	font-family: sans-serif;
+	width: 700px;
+	margin: 30px auto 0px auto;
+}
+
+div#header span#tagline {
+	position: relative;
+	top: 15px;
+	color: #5881d8;
+}
+
+div#header hr {
+	margin-top: 30px;
+}
+
+div#body {
+	background: #ffffff;
+	font-family: sans-serif;
+	width: 700px;
+	margin: 30px auto 0px auto;
+}
+
+/* Color Scheme of Clojure Logo */
+.black { color: #000000}
+.white { color: #ffffff}
+.background-green { color: #d8eccc}
+.light-green { color: #91dc47}
+.dark-green { color: #63b132}
+.background-blue { color: #e0e8f8}
+.light-blue { color: #8ca8e4}
+.dark-blue { color: #5881d8}
+
+img#logo {
+	float: left;
+	margin-right: 50px;
+}
+
+#menu {
+	position: fixed;
+	top: 0px;
+	background: #333;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+	height: 21px;
+	text-align: center;
+	list-style: none;
+	-moz-border-radius-bottomright: 50px 25px;
+	border-bottom-right-radius: 50px 25px;
+	-moz-border-radius-bottomleft: 50px 25px;
+	border-bottom-left-radius: 50px 25px;
+}
+#menu li {
+	font: 90% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+#menu a {
+	background: #333 url("../images/seperator.gif") bottom right no-repeat;
+	color: #ccc;
+	margin: 0;
+	padding: 3px 12px;
+	text-decoration: none;
+	font-weight:normal;
+}
+#menu a:hover {
+	background: #5881d8;
+	color: #000;
+	padding-bottom: 8px;
+}
+
+#footer {
+	padding: 5px;
+}
+
+#foot-container {
+	margin: 0px auto 0px auto;
+	text-align: center;
+	width: 700px;
+}
+
+span#foot-links a {
+	/* Not working yet */
+	margin-bottom: 50px;
+}
