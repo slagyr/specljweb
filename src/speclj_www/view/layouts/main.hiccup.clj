@@ -2,7 +2,7 @@
 [:html
  [:head
   [:meta {:http-equiv "Content-Type" :content "text/html" :charset "iso-8859-1"}]
-  [:title "speclj_www"]
+  [:title "Speclj"]
   (include-css "/stylesheets/speclj_www.css")
   (include-js "/javascript/speclj_www.js")]
  [:body
