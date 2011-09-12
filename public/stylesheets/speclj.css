@@ -1,0 +1,205 @@
+/*
+colors: 
+
+dark gray = #111111
+blue = rgb(88, 129, 215)
+white = rgb(238, 238, 238)
+
+*/
+
+
+body {
+	background: #EEE;
+	width: 100%;
+}
+
+/*/// --------- T Y P O G R A P H Y --------- ///*/
+
+@font-face {
+	font-family: Dekar;
+	src: url('Dekar.otf');
+}
+
+h1 {
+	color: #333;
+	font-family: 'Rosario', sans-serif;
+	font-size: 3.157em;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin: 0 0 0.5em 0;
+}
+
+h2 {
+	color: rgb(88, 129, 215);
+	font-family: 'Rosario', sans-serif;
+	font-size: 2.369em;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin: 1em 0;
+}
+
+h3 {
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	color: #444;
+	font-size: 1.777em;
+	line-height: 1.2em;
+	margin: 0 0 1em 0;
+}
+
+h4 {
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #444;
+	font-size: 1em;
+	line-height: 1.2em;
+	margin: 0 0 1em 0;
+}
+
+p, ul {
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+	line-height: 1.333em;
+}
+
+ul {
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: rgb(88, 129, 215);
+}
+
+i {
+	color: rgb(88, 129, 215);
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+abbr {
+	color: #000;
+	border-bottom: 2px dotted #222;
+}
+
+small {
+	color: #444;
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.75em;
+}
+
+/*/// --------- T O P  S E C T I O N --------- ///*/
+
+div#top {
+	background-color: #111;
+	height: 20em;
+	width: 100%;
+}
+
+div#top .left {
+	height: 20em;
+	width: 600px;
+	float: left;
+}
+
+div#top .right {
+	position: relative;
+	float: left;
+	height: 20em;
+	width: 600px;
+}
+
+div#top .right p {
+	color: rgb(238, 238, 238);
+	letter-spacing: 2px;
+	line-height: 1.333em;
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.777em;
+	padding: 0 0 0 1.5em;
+	position: absolute;
+	top: 4.5em;
+	left: 0em;
+	text-align: right;
+	width: 450px;
+}
+
+div#top div.right h4 {
+	color: rgb(88, 129, 215);;
+	position: absolute;
+	top: 10.5em;
+	right: 6.8em;
+	letter-spacing: 2px;
+}
+
+div#top div.left img.logo {
+	position: absolute;
+	top: 130px;
+	left: 100px;
+	width: 40px;
+}
+
+div#top div.left img.speclj {
+	border-right: 2px dotted #222;
+	padding: 0 3em 0 0;
+	margin: 6em 0 0 12em;
+	width: 350px;
+}
+
+div#top abbr {
+	color: rgb(238, 238, 238);
+	border-bottom: 2px dotted #222;
+	
+}
+
+/*/// --------- B O T T O M  S E C T I O N --------- ///*/
+
+div#bottom {
+	width: 1400px;
+}
+
+/*/// --------- N A V I G A T I O N --------- ///*/
+
+div#bottom nav {
+	font-family: 'Rosario', sans-serif;
+	color: #444;
+	margin: 3em 0 0 11.5em;
+}
+
+div#bottom nav {
+	float: left;
+	width: 460px;
+}
+
+div#bottom ul li {
+	margin: 0.25em 0;
+}
+
+
+/*/// --------- I N T R O --------- ///*/
+
+section.intro {
+	float: left;
+	margin: 3.5em 0;
+	width: 600px;
+}
+
+section.intro h2 a {
+	color: rgb(88, 129, 215);
+}
+
+section.intro h2 a:hover {
+	color: #333;
+}
+
+
+

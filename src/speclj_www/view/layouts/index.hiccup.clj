@@ -1,33 +1,29 @@
 (doctype :html5)
 [:html
  [:head
-  [:meta {:http-equiv "Content-Type" :content "text/html" :charset "iso-8859-1"}]
-  [:title "speclj_www"]
-  (include-css "/stylesheets/speclj_www.css")
-  (include-js "/javascript/speclj_www.js")]
+  [:meta {:http-equiv "Content-Type" :content "text/html" :charset "utf-8"}]
+  [:title "Clojure Testing Framework | Speclj"]
+  (include-css "/stylesheets/reset.css")
+  (include-css "/stylesheets/speclj.css")
+  [:link {:rel "stylesheet" :type "text/css" :href "http://fonts.googleapis.com/css?family=Rosario:400,400italic"}]
+  "<!--[if IE]>"
+   "<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>"
+  "<![endif]-->"]
  [:body
-  [:div {:id "header"}
-   [:div {:id "head-container"}
-    [:a {:href "/"}
-     [:img {:id "logo" :src "/images/speclj.png"}]]
-    [:span {:id "tagline"} "This is the index layout"]
-    [:br]   [:br]   [:br]
-    [:ul {:id "menu"}
-     [:li [:a {:href "/install"} "Installation"]]
-     [:li [:a {:href "/tutorial"} "Tutorial"]]
-     [:li [:a {:href "/docs"} "Documentation"]]
-     [:li [:a {:href "/community"} "Community"]]
-     [:li [:a {:href "https://github.com/slagyr/speclj/issues" :target "_blank"} "Feature Requests"]]]
-    [:hr]]]
-  [:div {:id "body"}
-   (eval (:template-body joodo.views/*view-context*))
-  ]
-  [:div {:id "footer"}
-   [:div {:id "foot-container"}
-    [:span {:id "foot-links"}
-     [:a {:href "/license"} "License Info"]
-     " | "
-     [:a {:href "https://github.com/slagyr/speclj/" :target "_blank"} "Git Repository"]]
-    [:br]
-    [:span "Copyright &copy; 2011 Micah Martin All Rights Reserved"]]]
-]]
+  [:div {:role "main"}
+   [:div {:id "top"}
+    [:div {:class "left"}
+     [:img {:class "speclj" :src "images/speclj.png"}]]
+    [:div {:class "right"}
+     [:p "a <abbr>TDD</abbr>/<abbr>BDD</abbr> framework for Clojure"]
+     [:h4 "pronounced \"speckle\" [spec-uhl]."]]]
+   [:div {:id "bottom"}
+    [:nav
+     [:ul
+      [:li [:a {:href "/install"} "Installation"]]
+      [:li [:a {:href "/tutorial"} "Tutorial"]]
+      [:li [:a {:href "/docs"} "Documentation"]]
+      [:li [:a {:href "/community"} "Community"]]
+      [:li [:a {:href "https://github.com/slagyr/speclj/issues" :target "_blank"} "Feature Requests"]]]]
+
+    (eval (:template-body joodo.views/*view-context*))]]]]
