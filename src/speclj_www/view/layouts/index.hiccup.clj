@@ -26,4 +26,16 @@
       [:li [:a {:href "/community"} "Community"]]
       [:li [:a {:href "https://github.com/slagyr/speclj/issues" :target "_blank"} "Feature Requests"]]]]
 
-    (eval (:template-body joodo.views/*view-context*))]]]]
+    [:div {:id "body"}
+     (eval (:template-body joodo.views/*view-context*))]]]
+
+  [:div {:id "footer"}
+   [:div {:id "foot-container"}
+    [:span {:id "foot-links"}
+     [:a {:href "/license"} "License Info"]
+     " | "
+     [:a {:href "https://github.com/slagyr/speclj/" :target "_blank"} "Git Repository"]]
+    [:br]
+    [:span "Copyright &copy; 2011 Micah Martin All Rights Reserved"]]]
+
+]]

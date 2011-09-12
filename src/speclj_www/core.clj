@@ -13,7 +13,8 @@
   (GET "/community" [] (render-template "community"))
   (GET "/license" [] (render-template "license"))
   (controller-router 'speclj_www.controller)
-  (not-found (render-template "not_found" :template-root "speclj_www/view" :ns `speclj_www.view.view-helpers)))
+;  (not-found (render-template "not_found" :template-root "speclj_www/view" :layout "layouts/main" :ns `speclj_www.view.view-helpers))
+)
 
 (def app-handler
   (->
