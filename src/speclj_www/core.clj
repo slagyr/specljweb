@@ -9,7 +9,6 @@
 (defroutes speclj_www-routes
   (GET "/" [] (render-template "index" :layout "layouts/index"))
   (GET "/install" [] (render-template "install"))
-  (GET "/tutorial" [] (render-template "tutorial"))
   (GET "/community" [] (render-template "community"))
   (GET "/license" [] (render-template "license"))
   (controller-router 'speclj_www.controller)

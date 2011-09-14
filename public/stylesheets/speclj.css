@@ -172,16 +172,16 @@ div#bottom {
 div#bottom nav {
 	font-family: 'Rosario', sans-serif;
 	color: #444;
-	margin: 3em 0 26em 11.5em;
+	margin: 3em 0 999999em 5.5em;
 }
 
 div#bottom nav {
 	float: left;
-	width: 260px;
+	width: 160px;
 }
 
 div#bottom ul li {
-	margin: 0.25em 0;
+	margin: .25em 0;
 }
 
 

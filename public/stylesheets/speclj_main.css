@@ -246,3 +246,8 @@ div#footer {
 	margin-bottom: 1em;
 	text-align: center;
 }
+
+span#lesson_nav {
+	padding: 8em;
+	font-size: 1.5em;
+}

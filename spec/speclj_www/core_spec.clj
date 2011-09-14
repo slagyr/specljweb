@@ -7,7 +7,14 @@
 (def get-route-and-page-name [
   ["/" "index"]
   ["/install" "install"]
-  ["/tutorial" "tutorial"]
+  ["/tutorial" "tutorial/index"]
+  ["/tutorial/step1" "tutorial/step1"]
+  ["/tutorial/step2" "tutorial/step2"]
+  ["/tutorial/step3" "tutorial/step3"]
+  ["/tutorial/step4" "tutorial/step4"]
+  ["/tutorial/step5" "tutorial/step5"]
+  ["/tutorial/step6" "tutorial/step6"]
+  ["/tutorial/step7" "tutorial/step7"]
   ["/community" "community"]
   ["/license" "license"]
   ["/docs" "docs/index"]
@@ -46,9 +53,6 @@
     (test-all-routes 0, 
       (fn [result route]
         (should= 200 (:status result))
-        (should= (get (get-route-and-page-name route) 1) @rendered-template))))
-
-  (it "displays the doc_sidebar partial when reviewing the docs")
-)
+        (should= (get (get-route-and-page-name route) 1) @rendered-template)))))
 
 (run-specs)
