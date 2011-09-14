@@ -1,4 +1,4 @@
-[:h1 "after-all"]
+[:h3 "after-all"]
 
 [:p "Declares a function that is invoked once after all the characteristics in the containing describe scope have been evaluated. The body may consist of any forms, presumably ones that perform side effects."]
 

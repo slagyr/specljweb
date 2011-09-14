@@ -1,4 +1,4 @@
-[:h1 "should-not-throw"]
+[:h3 "should-not-throw"]
 
 [:p "Asserts that nothing is thrown by the evaluation of a form."]
 

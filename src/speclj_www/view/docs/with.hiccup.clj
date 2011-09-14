@@ -1,4 +1,4 @@
-[:h1 "with"]
+[:h3 "with"]
 
 [:p "Declares a reference-able symbol that will be lazily evaluated once per characteristic of the containing describe scope. The body may contain any forms, the last of which will be the value of the dereferenced symbol."]
 

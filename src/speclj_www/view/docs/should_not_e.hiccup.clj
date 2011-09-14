@@ -1,4 +1,4 @@
-[:h1 "should-not="]
+[:h3 "should-not="]
 
 [:p "Asserts that two forms evaluate to inequal values, with the unexpexcted value as the first parameter."]
 

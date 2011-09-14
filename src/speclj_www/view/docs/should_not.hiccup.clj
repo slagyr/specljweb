@@ -1,4 +1,4 @@
-[:h1 "should-not"]
+[:h3 "should-not"]
 
 [:p "Asserts the falsy-ness of a form."]
 

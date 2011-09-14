@@ -1,4 +1,4 @@
-[:h1 "should="]
+[:h3 "should="]
 
 [:p "Asserts that two forms evaluate to equal values, with the expexcted value as the first parameter."]
 

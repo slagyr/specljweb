@@ -1,4 +1,4 @@
-[:h1 "around"]
+[:h3 "around"]
 
 [:p "Declares a function that will be invoked around each characteristic of the containing describe scope. The characteristic will be passed in and the around function is responsible for invoking it."]
 

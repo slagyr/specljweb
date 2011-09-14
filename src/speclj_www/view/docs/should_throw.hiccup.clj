@@ -1,4 +1,4 @@
-[:h1 "should-throw"]
+[:h3 "should-throw"]
 
 [:p "Asserts that a Throwable is throws by the evaluation of a form. When an class is passed, it assets that the thrown Exception is an instance of the class. When a string is also passed, it asserts that the message of the Exception is equal to the string."]
 

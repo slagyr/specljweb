@@ -1,4 +1,4 @@
-[:h1 "should"]
+[:h3 "should"]
 
 [:p "Asserts the truthy-ness of a form."]
 

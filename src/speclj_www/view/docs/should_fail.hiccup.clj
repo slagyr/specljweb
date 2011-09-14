@@ -1,4 +1,4 @@
-[:h1 "should-fail"]
+[:h3 "should-fail"]
 
 [:p "Forces a failure. An optional message may be passed in."]
 
