@@ -9,6 +9,7 @@ white = rgb(238, 238, 238)
 
 
 body {
+	min-width:1000px;
 	background: #EEE;
 	width: 100%;
 }

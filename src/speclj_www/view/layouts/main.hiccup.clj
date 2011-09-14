@@ -5,6 +5,7 @@
   [:title "Clojure Testing Framework | Speclj"]
   (include-css "/stylesheets/reset.css")
   (include-css "/stylesheets/speclj_main.css")
+  (include-css "/stylesheets/clojure_code_highlight.css")
   [:link {:rel "stylesheet" :type "text/css" :href "http://fonts.googleapis.com/css?family=Rosario:400,400italic"}]
   "<!--[if IE]>"
    "<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>"
