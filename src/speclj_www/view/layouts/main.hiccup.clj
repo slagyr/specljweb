@@ -19,9 +19,9 @@
      [:li [:a {:href "/community"} "Community"]]
      [:li [:a {:href "https://github.com/slagyr/speclj/issues" :target "_blank"} "Feature Requests"]]]
     [:hr]]]
+  [:div {:id "body"}
   (if (= "docs" (subs (*request* :uri) 1 5))
     (render-partial "partials/doc_sidebar"))
-  [:div {:id "body"}
    (eval (:template-body joodo.views/*view-context*))
   ]
   [:div {:id "footer"}

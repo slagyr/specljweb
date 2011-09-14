@@ -106,7 +106,7 @@ div#top {
 
 div#top .left {
 	height: 20em;
-	width: 600px;
+	width: 500px;
 	float: left;
 }
 
@@ -114,7 +114,7 @@ div#top .right {
 	position: relative;
 	float: left;
 	height: 20em;
-	width: 600px;
+	width: 500px;
 }
 
 div#top .right p {
@@ -164,7 +164,7 @@ div#top abbr {
 /*/// --------- B O T T O M  S E C T I O N --------- ///*/
 
 div#bottom {
-	width: 1400px;
+	width: 1000px;
 }
 
 /*/// --------- N A V I G A T I O N --------- ///*/
@@ -172,12 +172,12 @@ div#bottom {
 div#bottom nav {
 	font-family: 'Rosario', sans-serif;
 	color: #444;
-	margin: 3em 0 0 11.5em;
+	margin: 3em 0 26em 11.5em;
 }
 
 div#bottom nav {
 	float: left;
-	width: 460px;
+	width: 260px;
 }
 
 div#bottom ul li {
@@ -202,4 +202,12 @@ section.intro h2 a:hover {
 }
 
 
+div#body h3 {
+	margin: 1em 0 .8em 0;
+}
 
+div#footer {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
