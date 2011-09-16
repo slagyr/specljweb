@@ -1,11 +1,14 @@
 [:h3 "should-throw"]
 
-[:p "Asserts that a Throwable is throws by the evaluation of a form. When an class is passed, it assets that the thrown Exception is an instance of the class. When a string is also passed, it asserts that the message of the Exception is equal to the string."]
+[:div {:id "comp_box"}
+  [:p "Asserts that a Throwable is throws by the evaluation of a form. When an class is passed, it assets that the thrown Exception is an instance of the class. When a string is also passed, it asserts that the message of the Exception is equal to the string."]
 
-[:code "
-<pre>(should-throw (+ 1 1)) ; fails
-(should-throw (Exception.)) ; passes
-(should-throw NullPointerException (Exception.)) ; fails
-(should-throw Exception (NullPointerException.)) ; passes
-(should-throw Exception \"Foo\" (Exception. \"Bar\")) ; fails
-(should-throw Exception \"Foo\" (Exception. \"Foo\")) ; passes</pre>"]
+  [:code "(should-throw (+ 1 1)) ; fails<br />
+    (should-throw (Exception.)) ; passes<br />
+    (should-throw NullPointerException (Exception.)) ; fails<br />
+    (should-throw<br />
+	  &nbsp;&nbsp;Exception (NullPointerException.)) ; passes<br />
+    (should-throw<br />
+	  &nbsp;&nbsp;Exception \"Foo\" (Exception. \"Bar\")) ; fails<br />
+    (should-throw<br />
+	  &nbsp;&nbsp;Exception \"Foo\" (Exception. \"Foo\")) ; passes"]]

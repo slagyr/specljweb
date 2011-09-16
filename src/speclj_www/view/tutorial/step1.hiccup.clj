@@ -10,11 +10,13 @@
 
 [:p "What did we just do? We told Leiningen to create a new clojure project called change_counter in the directory that we are currently in. As you can see, a lot of new files and directories were just created. To use Speclj, we need to make some minor adjustments to the standard directory structure. <a href=\"#f1\">Figure 1</a> shows the default directory structure that Leiningen creates, and <a href=\"#f2\">Figure 2</a> shows the directory structure that Speclj requires."]
 
-[:h5 [:a {:name "f1"} "Figure 1"]]
-[:img {:src "/images/figure1.png"}]
+[:div {:id "float_pic1"}
+  [:h5 [:a {:name "f1"} "Figure 1"]]
+  [:img {:src "/images/figure1.png"}]]
 
-[:h5 [:a {:name "f2"} "Figure 2"]]
-[:img {:src "/images/figure2.png"}]
+[:div {:id "float_pic2"}
+  [:h5 [:a {:name "f2"} "Figure 2"]]
+  [:img {:src "/images/figure2.png"}]]
 
 [:p "Once you make the required changes to your project's directory, we are ready to install Speclj. If you have reviewed our <a href=\"/install\">Installation</a> page, you would know that there are two ways we could do this. For this tutorial project, we will install using Leiningen. To do this we need to edit our project.clj file. <a href=\"#f3\">Figure 3</a> shows what our project.clj file will look like after we make the changes outlined by the Installation page."]
 

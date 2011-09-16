@@ -1,7 +1,7 @@
 [:h3 "should"]
 
-[:p "Asserts the truthy-ness of a form."]
+[:div {:id "comp_box"}
+  [:p "Asserts the truthy-ness of a form."]
 
-[:code "
-<pre>(should true) ; passes
-(should false) ; fails</pre>"]
+  [:code "(should true) ; passes<br />
+    (should false) ; fails</pre>"]]

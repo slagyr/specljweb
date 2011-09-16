@@ -1,7 +1,7 @@
 [:h3 "should-not"]
 
-[:p "Asserts the falsy-ness of a form."]
+[:div {:id "comp_box"}
+  [:p "Asserts the falsy-ness of a form."]
 
-[:code "
-<pre>(should-not true) ; fails
-(should-not false) ; passes</pre>"]
+  [:code "(should-not true) ; fails<br />
+    (should-not false) ; passes</pre>"]]

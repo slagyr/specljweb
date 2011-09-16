@@ -9,16 +9,19 @@ white = rgb(238, 238, 238)
 
 
 body {
-	min-width:1000px;
 	background: #EEE;
-	width: 100%;
 }
+
 
 /*/// --------- T Y P O G R A P H Y --------- ///*/
 
 @font-face {
 	font-family: Dekar;
 	src: url('Dekar.otf');
+}
+
+pre {
+	border: 2px solid #ccc;
 }
 
 h1 {
@@ -58,12 +61,31 @@ h4 {
 	margin: 0 0 1em 0;
 }
 
+h5 {
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #444;
+	font-size: .8em;
+	line-height: 1.2em;
+	margin: 0 0 1em 0;
+}
+
 p, ul {
 	font-family: 'Rosario', sans-serif;
 	font-weight: 400;
 	color: #333;
 	font-size: 1em;
 	line-height: 1.333em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+code {
+	display: block;
+	margin-bottom: 1em;
 }
 
 ul {
@@ -99,26 +121,28 @@ small {
 
 /*/// --------- T O P  S E C T I O N --------- ///*/
 
-div#top {
+div#header {
 	background-color: #111;
-	height: 20em;
 	width: 100%;
 }
 
-div#top .left {
-	height: 20em;
-	width: 500px;
-	float: left;
+div#head_body {
+	height: 6.8em;
+	width: 900px;
+	margin: 0px auto;
+	padding: 30px;
 }
 
-div#top .right {
+div#header img {
+	float: left;
+	width: 16em;
+	margin-left: 87px;
+}
+
+div#header p {
 	position: relative;
-	float: left;
-	height: 20em;
-	width: 500px;
-}
-
-div#top .right p {
+	top: 23px;
+	right: -40px;
 	color: rgb(238, 238, 238);
 	letter-spacing: 2px;
 	line-height: 1.333em;
@@ -126,89 +150,74 @@ div#top .right p {
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.777em;
-	padding: 0 0 0 1.5em;
-	position: absolute;
-	top: 4.5em;
-	left: 0em;
-	text-align: right;
-	width: 450px;
 }
 
-div#top div.right h4 {
+div#header p abbr {
+	color: rgb(238, 238, 238);
+}
+
+div#header h4 {
+	position: relative;
+	top: -5px;
+	right: -40px;
 	color: rgb(88, 129, 215);;
-	position: absolute;
-	top: 10.5em;
-	right: 6.8em;
 	letter-spacing: 2px;
 }
 
-div#top div.left img.logo {
-	position: absolute;
-	top: 130px;
-	left: 100px;
-	width: 40px;
+/*/// --------- M A I N  S E C T I O N --------- ///*/
+
+div#main_body {
+	width: 900px;
+	margin: 50px auto 0px auto;
 }
 
-div#top div.left img.speclj {
-	border-right: 2px dotted #222;
-	padding: 0 3em 0 0;
-	margin: 6em 0 0 12em;
-	width: 350px;
-}
-
-div#top abbr {
-	color: rgb(238, 238, 238);
-	border-bottom: 2px dotted #222;
-	
-}
-
-/*/// --------- B O T T O M  S E C T I O N --------- ///*/
-
-div#bottom {
-	width: 1000px;
+div#comp_box {
+	background-color: #F8F8F8;
+	border: 1px solid #ddd;
+	padding: 1.5em;
+	margin-bottom: 1em;
 }
 
 /*/// --------- N A V I G A T I O N --------- ///*/
 
-div#bottom nav {
+div#nav {
 	font-family: 'Rosario', sans-serif;
 	color: #444;
-	margin: 3em 0 999999em 5.5em;
-}
-
-div#bottom nav {
+	margin: 3.7em 1em 2em 5.5em;
 	float: left;
-	width: 160px;
+	width: 280px;
 }
 
-div#bottom ul li {
+div#nav ul li {
 	margin: .25em 0;
+	list-style-type: none;
 }
 
+div#nav ul li ul {
+	margin-left: 1em;
+}
 
-/*/// --------- I N T R O --------- ///*/
+/*/// --------- C O N T E N T --------- ///*/
 
-section.intro {
+div#content {
+	margin-top: 3.7em;
+	margin-bottom: 2em;
 	float: left;
-	margin: 3.5em 0;
-	width: 600px;
+	width: 500px;
 }
 
-section.intro h2 a {
-	color: rgb(88, 129, 215);
+div#lein_install {
+	margin-top: 2em;
 }
 
-section.intro h2 a:hover {
-	color: #333;
+div#man_install {
+	margin-top: 2em;
 }
 
+/*/// --------- B O T T O M  S E C T I O N --------- ///*/
 
-div#body h3 {
-	margin: 1em 0 .8em 0;
-}
-
-div#footer {
-	margin-top: 3em;
-	margin-bottom: 1em;
+div#foot_body {
+	width: 900px;
+	margin: 0 auto 5em auto;
 	text-align: center;
 }

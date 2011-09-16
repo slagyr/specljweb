@@ -183,7 +183,7 @@ div#comp_box {
 div#nav {
 	font-family: 'Rosario', sans-serif;
 	color: #444;
-	margin: 3.7em 1em 999em 5.5em;
+	margin: 3.7em 1em 2em 5.5em;
 	float: left;
 	width: 280px;
 }
@@ -212,6 +212,16 @@ div#lein_install {
 
 div#man_install {
 	margin-top: 2em;
+}
+
+div#float_pic1 {
+	margin: 0 20px 20px 40px;
+	float: left;
+}
+
+div#float_pic2 {
+	margin: 0 40px 50px 20px;
+	float: left;
 }
 
 /*/// --------- B O T T O M  S E C T I O N --------- ///*/

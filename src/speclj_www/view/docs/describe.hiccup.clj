@@ -5,5 +5,5 @@
   [:p "Declares a new spec. The body can contain any forms that evaluate to spec compoenents (it, before, after, with ...)."]
 
   [:code "(describe \"Calculator\"<br />
-&nbsp;&nbsp;... ; spec components<br />
-)"]]
+    &nbsp;&nbsp;... ; spec components<br />
+    )"]]
