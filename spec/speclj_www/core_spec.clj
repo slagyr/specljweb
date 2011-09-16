@@ -7,7 +7,7 @@
 (def get-route-and-page-name [
   ["/" "index"]
   ["/install" "install"]
-  ["/tutorial" "tutorial/index"]
+  ["/tutorial" "tutorial/step1"]
   ["/tutorial/step1" "tutorial/step1"]
   ["/tutorial/step2" "tutorial/step2"]
   ["/tutorial/step3" "tutorial/step3"]

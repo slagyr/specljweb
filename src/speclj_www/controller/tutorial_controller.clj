@@ -7,8 +7,8 @@
 (def tutorial-controller
   (->
     (routes
-      (GET "/tutorial" [] (render-template "tutorial/index"))
-      (GET "/tutorial/" [] (render-template "tutorial/index"))
+      (GET "/tutorial" [] (render-template "tutorial/step1"))
+      (GET "/tutorial/" [] (render-template "tutorial/step1"))
       (GET "/tutorial/step1" [] (render-template "tutorial/step1"))
       (GET "/tutorial/step2" [] (render-template "tutorial/step2"))
       (GET "/tutorial/step3" [] (render-template "tutorial/step3"))
