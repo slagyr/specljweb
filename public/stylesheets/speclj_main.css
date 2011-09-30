@@ -140,6 +140,7 @@ div#header img {
 }
 
 div#header p {
+	display: inline-block;
 	position: relative;
 	top: 23px;
 	right: -40px;
@@ -157,6 +158,7 @@ div#header p abbr {
 }
 
 div#header h4 {
+	display: inline-block;
 	position: relative;
 	top: -5px;
 	right: -40px;

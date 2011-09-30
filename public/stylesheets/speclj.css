@@ -124,6 +124,7 @@ small {
 div#header {
 	background-color: #111;
 	width: 100%;
+	height: 20em;
 }
 
 div#head_body {
@@ -131,6 +132,7 @@ div#head_body {
 	width: 900px;
 	margin: 0px auto;
 	padding: 30px;
+	padding-top: 100px;
 }
 
 div#header img {
@@ -140,6 +142,7 @@ div#header img {
 }
 
 div#header p {
+	display: inline-block;
 	position: relative;
 	top: 23px;
 	right: -40px;
@@ -157,6 +160,7 @@ div#header p abbr {
 }
 
 div#header h4 {
+	display: inline-block;
 	position: relative;
 	top: -5px;
 	right: -40px;
