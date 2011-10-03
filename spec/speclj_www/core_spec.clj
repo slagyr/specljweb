@@ -20,6 +20,7 @@
   ["/docs" "docs/index"]
   ["/docs/describe" "docs/describe"]
   ["/docs/it" "docs/it"]
+  ["/docs/context" "docs/context"]
   ["/docs/should" "docs/should"]
   ["/docs/should-not" "docs/should_not"]
   ["/docs/should-e" "docs/should_e"]
@@ -32,7 +33,9 @@
   ["/docs/after" "docs/after"]
   ["/docs/after-all" "docs/after_all"]
   ["/docs/with" "docs/with"]
+  ["/docs/with-all" "docs/with-all"]
   ["/docs/around" "docs/around"]
+  ["/docs/tags" "docs/tags"]
 ])
 
 (defn test-all-routes [route assertions]
