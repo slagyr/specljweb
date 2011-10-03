@@ -27,6 +27,9 @@
             [:li [:a {:href "/docs"} "Documentation"]]
             (if (= "docs" (subs (*request* :uri) 1 5))
               [:li (render-partial "partials/doc_sidebar")])
+            [:li [:a {:href "/plugins"} "Plugins"]]
+            (if (= "plug" (subs (*request* :uri) 1 5))
+              [:li (render-partial "partials/plugins_sidebar")])
             [:li [:a {:href "/community"} "Community"]]
             [:li [:a {:href "https://github.com/slagyr/speclj/issues" :target "_blank"} "Feature Requests"]]]]
         [:div {:id "content"}

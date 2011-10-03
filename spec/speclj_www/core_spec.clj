@@ -36,6 +36,8 @@
   ["/docs/with-all" "docs/with-all"]
   ["/docs/around" "docs/around"]
   ["/docs/tags" "docs/tags"]
+  ["/plugins" "plugins/index"]
+  ["/plugins/speclj-growl" "plugins/speclj-growl"]
 ])
 
 (defn test-all-routes [route assertions]

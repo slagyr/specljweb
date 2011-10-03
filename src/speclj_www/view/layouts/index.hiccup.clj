@@ -23,6 +23,7 @@
             [:li [:a {:href "/install"} "Installation"]]
             [:li [:a {:href "/tutorial"} "Tutorial"]]
             [:li [:a {:href "/docs"} "Documentation"]]
+            [:li [:a {:href "/plugins"} "Plugins"]]
             [:li [:a {:href "/community"} "Community"]]
             [:li [:a {:href "https://github.com/slagyr/speclj/issues" :target "_blank"} "Feature Requests"]]]]
         [:div {:id "content"}
