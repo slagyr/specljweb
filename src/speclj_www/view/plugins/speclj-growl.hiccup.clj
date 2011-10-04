@@ -1,5 +1,6 @@
 [:h3 "Speclj-Growl"]
-[:h4 "Written By: Paul Gross"]
+[:h4 "Written By: " [:a {:href "http://www.pgrs.net/"} "Paul Gross"]]
+[:h4 [:a {:href "https://github.com/pgr0ss/speclj-growl"} "Source Code"]]
 [:p "Speclj-Growl sends the results of your tests through " [:a {:href "http://growl.info/"} "Growl"] ". Growl is a notification system for the Mac Operating System."]
 
 [:br]
