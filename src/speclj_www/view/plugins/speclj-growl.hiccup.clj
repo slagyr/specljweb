@@ -6,7 +6,9 @@
 [:br]
 
 [:h3 "Installation"]
-[:p "If you are using Leiningen, simply add [speclj-growl \"1.0.0-SNAPSHOT\"] to your project.clj file. If you are using Maven, add the following to your pom.xml file:"]
+[:p "If you are using Leiningen, simply add"]
+[:code "[speclj-growl \"1.0.0-SNAPSHOT\"]"]
+[:p "to your project.clj file. If you are using Maven, add the following to your pom.xml file:"]
 [:code "&lt;dependency&gt;<br />
   &nbsp;&nbsp;&lt;groupId&gt;speclj-growl&lt;/groupId&gt;<br />
   &nbsp;&nbsp;&lt;artifactId&gt;speclj-growl&lt;/artifactId&gt;<br />
