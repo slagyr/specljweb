@@ -7,7 +7,7 @@
  [:ul
   [:li "Include speclj in your :dev-dependencies and change the :test-path to \"spec/\".
    <code>
-    :dev-dependencies [[speclj \"1.4.0\"]]<br />
+    :dev-dependencies [[speclj \"2.1.1\"]]<br />
     :test-path \"spec/\"</code>"]
   [:li "Run \"lein deps\" from your terminal while in your project directory."]]
 ]
