@@ -5,7 +5,7 @@
 
   [:code "(describe \"I/O Tests\"<br />
     &nbsp;&nbsp;(tags :unit)
-    &nbsp;&nbsp;&nbsp;&nbsp; ;tests with the unit tag will be contained here
+    &nbsp;&nbsp;&nbsp;&nbsp; ;tests contained here
     )"]
 
   [:p "Tags can be filtered at runtime using the -t flag. In the example below, only the tests wrapped in the unit tag will be run."]
