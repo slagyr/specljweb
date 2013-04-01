@@ -3,6 +3,6 @@
   (:use
     [joodo.views :only (render-partial *view-context*)]
     [joodo.middleware.request]
-    [hiccup.page-helpers]
-    [hiccup.form-helpers]
+    [hiccup.page]
+    [hiccup.form]
     [speclj.core]))
