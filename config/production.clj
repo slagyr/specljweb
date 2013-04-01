@@ -1,1 +1,1 @@
-(alter-env! assoc :joodo-env "development")
+(alter-env! assoc :joodo-env "production")
