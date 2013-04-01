@@ -2,6 +2,7 @@
   :description "A website deployable to AppEngine"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [joodo "1.1.2"]]
+  :min-lein-version "2.0.0"
 
   ; lein 1.x
   :dev-dependencies [[speclj "2.5.0"]]
