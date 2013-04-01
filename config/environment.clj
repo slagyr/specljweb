@@ -1,8 +1,1 @@
-(use 'joodo.env)
-
-(def environment {
-  :joodo.core.namespace "speclj_www.core"
-  ; environment settings go here
-  })
-
-(swap! *env* merge environment)
+(alter-env! assoc :joodo.root.namespace "speclj_www.core")
