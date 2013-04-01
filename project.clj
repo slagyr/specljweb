@@ -14,6 +14,6 @@
             [joodo/lein-joodo "1.1.2"]]
   :test-paths ["spec"]
 
-  :java-source-path "src/"
+  ;:java-source-path "src/"
   :repl-init-script "config/development/repl_init.clj"
   :joodo-core-namespace speclj_www.core)
