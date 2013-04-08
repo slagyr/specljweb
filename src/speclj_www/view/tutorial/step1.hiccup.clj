@@ -3,7 +3,15 @@
 
 [:p "Speclj is a plugin for Leiningen. Leiningen is an application that does a lot of useful tasks for people working on Clojure projects. So in order to use Speclj, you need to have Leiningen installed on your system. Instructions on installing Leiningen can be found on their <a href=\"https://github.com/technomancy/leiningen/blob/master/README.md\">README</a> file."]
 
-[:p "Next you need to create a new clojure project. To do this you need to open up your terminal and run the following command:"]
+[:p "Next you need to create a new Clojure project that uses Speclj. The simplest way to do this is to run the following command:"]
+
+[:code "lein new speclj change-counter"]
+
+[:p "You can open the files at `src/change_counter/core.clj` and `spec/change_counter/core_spec.clj` and remove the contents. We will be creating the code for these files in the following steps. You can now continue to Step 2."]
+
+[:h4 "Create a Speclj project step-by-step"]
+
+[:p "Alternatively, you could create the Speclj project manually by doing the following:"]
 
 [:code "lein new change-counter"]
 
