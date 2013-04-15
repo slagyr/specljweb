@@ -24,6 +24,11 @@ pre {
 	border: 2px solid #ccc;
 }
 
+#comp_box pre {
+  border: none;
+  white-space: pre-wrap;
+}
+
 h1 {
 	color: #333;
 	font-family: 'Rosario', sans-serif;
