@@ -1,7 +1,9 @@
 (defproject speclj_www "0.0.1"
   :description "A website deployable to AppEngine"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [joodo "1.1.2"]]
+                 [joodo "1.1.2"]
+                 [speclj "2.5.0"]
+                 ]
   :min-lein-version "2.0.0"
 
   ; lein 1.x
@@ -14,6 +16,6 @@
             [joodo/lein-joodo "1.1.2"]]
   :test-paths ["spec"]
 
-  :java-source-path "src/"
+  ;:java-source-path "src/"
   :repl-init-script "config/development/repl_init.clj"
   :joodo-core-namespace speclj_www.core)
