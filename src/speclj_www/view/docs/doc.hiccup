@@ -1,0 +1,4 @@
+[:h3 (:component-name *view-context*)]
+
+[:div {:id "comp_box"}
+  [:pre (:doc *view-context*)]]
