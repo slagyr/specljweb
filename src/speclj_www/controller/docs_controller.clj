@@ -12,4 +12,5 @@
 
 (def docs-controller
   (context "/docs" []
+    (GET "/" [] (render-template "docs/index"))
     (GET "/:component-name" [component-name] (render-docs-for component-name))))
