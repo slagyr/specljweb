@@ -1,6 +1,7 @@
 (ns speclj_www.controller.docs-controller
-  (:use [compojure.core :only (routes GET context)]
-        [joodo.views :only (render-template render-html)]))
+  (:require [compojure.core :refer [routes GET context]]
+            [joodo.views :refer [render-template render-html]]
+            [speclj.core]))
 
 (def speclj-ns (the-ns 'speclj.core))
 
