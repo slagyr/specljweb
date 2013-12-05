@@ -31,7 +31,7 @@
   (refresh/handler 'speclj_www.controller.docs-controller/docs-controller)
   (refresh/handler 'speclj_www.controller.plugins-controller/plugins-controller)
   (refresh/handler 'speclj_www.controller.tutorial-controller/tutorial-controller)
-;  (not-found (render-template "not_found" :template-root "speclj_www/view" :layout "layouts/main" :ns `speclj_www.view.view-helpers))
+;  (route/not-found (render-template "not_found" :template-root "speclj_www/view" :ns `speclj_www.view.view-helpers))
 )
 
 (def app-handler
