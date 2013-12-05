@@ -1,6 +1,6 @@
 [:h3 "License Info"]
 
-[:p "Copyright (C) 2011 Micah Martin All Rights Reserved."]
+[:p "Copyright (C) 2013 Micah Martin All Rights Reserved."]
 [:p "Distributed under the The MIT License."]
 [:p "Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the \"Software\"),
