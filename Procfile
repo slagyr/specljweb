@@ -1,1 +1,1 @@
-web: lein joodo server -e production -p $PORT -a 0.0.0.0
+web: JOODO_ENV=production lein do clean, ring server
