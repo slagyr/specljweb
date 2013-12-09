@@ -30,4 +30,4 @@
 
 [:code "lein spec"]
 
-[:span {:id "lesson_nav"} [:a {:href "/tutorial/step1"} "<-- Getting Started"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/tutorial/step3"} "The Basics -->"]]
+[:span {:id "lesson_nav"} [:a {:href "/speclj_tutorial/step1"} "<-- Getting Started"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/speclj_tutorial/step3"} "The Basics -->"]]

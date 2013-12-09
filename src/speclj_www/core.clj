@@ -30,7 +30,8 @@
   (GET "/license" [] (render-template "license"))
   (refresh/handler 'speclj_www.controller.docs-controller/docs-controller)
   (refresh/handler 'speclj_www.controller.plugins-controller/plugins-controller)
-  (refresh/handler 'speclj_www.controller.tutorial-controller/tutorial-controller)
+  (refresh/handler 'speclj_www.controller.speclj-tutorial-controller/speclj-tutorial-controller)
+  (refresh/handler 'speclj_www.controller.specljs-tutorial-controller/specljs-tutorial-controller)
 ;  (route/not-found (render-template "not_found" :template-root "speclj_www/view" :ns `speclj_www.view.view-helpers))
 )
 

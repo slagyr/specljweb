@@ -21,7 +21,8 @@
         [:div {:id "nav"}
           [:ul
             [:li [:a {:href "/install"} "Installation"]]
-            [:li [:a {:href "/tutorial"} "Tutorial"]]
+            [:li [:a {:href "/speclj_tutorial"} "Speclj Tutorial (Clojure)"]]
+            [:li [:a {:href "/specljs_tutorial"} "Specljs Tutorial (ClojureScript)"]]
             [:li [:a {:href "/docs"} "Documentation"]]
             [:li [:a {:href "/plugins"} "Plugins"]]
             [:li [:a {:href "/community"} "Community"]]
@@ -35,4 +36,4 @@
           " | "
           [:a {:href "https://github.com/slagyr/speclj/" :target "_blank"} "Git Repository"]]
         [:br]
-        [:span "Copyright &copy; 2011-2013 Micah Martin All Rights Reserved"]]]]]
+        [:span "Copyright &copy; 2011-2014 Micah Martin All Rights Reserved"]]]]]
