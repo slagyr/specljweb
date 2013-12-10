@@ -14,7 +14,7 @@
 
 <span class=\"meta meta_sexpr meta_sexpr_clojure\">(<span class=\"source source_symbol source_symbol_clojure\">run-specs</span>)</span></span></pre>"]
 
-[:p "So what does this code do? The first two lines set the namespace to be change-counter.core-spec and also gets all of the functions defined in the speclj.core namespace. From speclj.core we are using describe, it, should, and run-specs."]
+[:p "So what does this code do? The first two lines set the namespace to be change-counter.core-spec and also gets all of the functions defined in the speclj.core namespace. From speclj.core we are using the functions: describe, it, should, and run-specs."]
 
 [:p "The describe function wraps related tests. In this example we are testing the truthiness of functions, so we labeled our describe component truthiness. Technically you can label the describe component with any string. However it is helpful to other developers if you label your describe component based on what is being tested. The same can be said for the it component. If we really wanted we could label the it component as follows:"]
 
@@ -30,4 +30,4 @@
 
 [:code "lein spec"]
 
-[:span {:id "lesson_nav"} [:a {:href "/speclj_tutorial/step1"} "<-- Getting Started"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/speclj_tutorial/step3"} "The Basics -->"]]
+[:span {:id "lesson_nav"} [:a {:href "/tutorial/step1"} "<-- Getting Started"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/tutorial/step3"} "The Basics -->"]]

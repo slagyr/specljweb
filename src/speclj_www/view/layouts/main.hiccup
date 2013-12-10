@@ -21,12 +21,10 @@
         [:div {:id "nav"}
           [:ul
             [:li [:a {:href "/install"} "Installation"]]
-            [:li [:a {:href "/speclj_tutorial"} "Speclj Tutorial (Clojure)"]]
-            (if (= "speclj_" (subs (*request* :uri) 1 8))
-              [:li (render-partial "partials/speclj_tutorial_sidebar")])
-            [:li [:a {:href "/specljs_tutorial"} "Specljs Tutorial (ClojureScript)"]]
-            (if (= "specljs" (subs (*request* :uri) 1 8))
-              [:li (render-partial "partials/specljs_tutorial_sidebar")])
+            [:li [:a {:href "/tutorial"} "Tutorial"]]
+            (if (= "tuto" (subs (*request* :uri) 1 5))
+              [:li (render-partial "partials/tutorial_sidebar")])
+            [:li [:a {:href "/specljs"} "Specljs"]]
             [:li [:a {:href "/docs"} "Documentation"]]
             (if (= "docs" (subs (*request* :uri) 1 5))
               [:li (render-partial "partials/doc_sidebar")])

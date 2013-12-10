@@ -1,10 +1,10 @@
-[:h1 "Using Specljs with ClojureScript"]
+[:h2 "Specljs and ClojureScript"]
 [:h3 "Specljs versus Speclj"]
 [:p "Specljs is basically Speclj for ClojureScript.  About 98% of Specljs works just like Speclj.  But there are a few differences.  This section lists out the differences between Speclj and Specljs"]
 
-[:h2 "Differences Between Specljs and Speclj"]
+[:h3 "Differences Between Specljs and Speclj"]
 
-[:h3 "Namespace Requirements"]
+[:h4 "Namespace Requirements"]
 [:p "The standard Speclj namespace import looks something like:"]
 
 [:p "However, due to the nuances of ClojureScript, Specljs must be imported slightly differently."]

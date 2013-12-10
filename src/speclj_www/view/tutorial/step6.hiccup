@@ -30,4 +30,4 @@
 [:p "Won't the string value of $5 make get-coin-amount throw an error? Yes, and we can test that it should do that by using Speclj's should-throw component. On the flipside, when prompt returns a string value that can be parsed into an int without tripping the catch method, we can use the should-not-throw to test for an error and exception free execution of our method."]
 
 [:p "The should=, should-not=, and should-fail assertions are all testing the same thing. We included them just to show how they can be used. The should= passes if the first argument equals the result of the second argument. On the other hand, the should-not= passes if the first argument doesn't equal the result of its second argument. Then finally, the should-fail fails the test and prints it's error message if it gets evaluated."]
-[:span {:id "lesson_nav"} [:a {:href "/speclj_tutorial/step5#ch7"} "<-- Automated Testing"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/speclj_tutorial/step7"} "Reference-able Symbols -->"]]
+[:span {:id "lesson_nav"} [:a {:href "/tutorial/step5#ch7"} "<-- Automated Testing"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/tutorial/step7"} "Reference-able Symbols -->"]]

@@ -37,4 +37,4 @@
 [:p "You might notice that loading up our tests takes a long time, yet actually running our tests happens extremely quickly. This occurs because Clojure runs on the Java Virtual Machine (JVM). One way we can bypass this annoying load up time is by setting our tests to stay loaded up and run whenever we save any changes to our code. This can be accomplished by running the following command from our terminal:"]
 
 [:code "lein spec -a"]
-[:span {:id "lesson_nav"} [:a {:href "/speclj_tutorial/step4#ch5"} "<-- Multiple Test Files"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/speclj_tutorial/step6"} "Decoupling Tests -->"]]
+[:span {:id "lesson_nav"} [:a {:href "/tutorial/step4#ch5"} "<-- Multiple Test Files"] "&nbsp;&nbsp;|&nbsp;&nbsp;" [:a {:href "/tutorial/step6"} "Decoupling Tests -->"]]
