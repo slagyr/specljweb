@@ -1,6 +1,7 @@
 [:h2 "Specljs and ClojureScript"]
-[:h3 "Specljs vs Speclj"]
-[:p "Specljs is just Speclj for ClojureScript.  About 98% of Specljs works just like Speclj.  But there are a few differences.  This section lists the differences between Speclj and Specljs"]
+
+[:p "Specljs is just Speclj for ClojureScript.  About 98% of Specljs works just like Speclj.  So the best way to learn Specljs is to complete our short " [:b [:a {:href "/tutorial"} "specljs tutorial"]] "."]
+[:p "But there are a few differences between Specljs and Speclj.  This section lists those differences as well as some helpful tips for debugging Specljs."]
 
 [:h3 "Differences Between Specljs and Speclj"]
 
@@ -29,7 +30,7 @@
 
 
 [:h4 "A Note About The State Of ClojureScript"]
-[:p "As of ClojureScript version X.X.X some of Clojure's core function are not implemented in Clojurescript.  Thus, attempting to use these function in Specljs will have the same results as attempting to use them in any ClojureScript file.  They won't work."]
+[:p "As of ClojureScript stable release version 0.0-2080 some of Clojure's core function are not implemented in Clojurescript.  Thus, attempting to use these function in Specljs will have the same results as attempting to use them in any ClojureScript file.  They won't work."]
 
  [:h2 "Debugging Tips"]
  [:p "ClojureScript is a great new technology, but it is really new.  This means that its error message can be a bit obtuse.  Below are common error message that Specljs produces and what they might mean:"]
