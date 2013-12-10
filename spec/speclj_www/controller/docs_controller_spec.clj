@@ -17,6 +17,4 @@
   (it "404s on a missing component"
     (let [response (do-get "/docs/foo")]
       (should= 404 (:status response))
-      (should= "not_found" @rendered-template)))
-
-  )
+      (should= "not_found" @rendered-template))))

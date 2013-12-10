@@ -1,0 +1,19 @@
+[:h1 "Using Specljs with ClojureScript"]
+[:h3 "Specljs versus Speclj"]
+[:p "Specljs is basically Speclj for ClojureScript.  About 98% of Specljs works just like Speclj.  But there are a few differences.  This section lists out the differences between Speclj and Specljs"]
+
+[:h2 "Differences Between Specljs and Speclj"]
+
+[:h3 "Namespace Requirements"]
+[:p "The standard Speclj namespace import looks something like:"]
+
+[:p "However, due to the nuances of ClojureScript, Specljs must be imported slightly differently."]
+
+[:h4 "A Note About ClojureScript State"]
+[:p "As of ClojureScript version X.X.X some of Clojure's core function are not implemented in Clojurescript.  Thus, attempting to use these function in Specljs will have the same results as attempting to use them in any ClojureScript file.  They won't work."]
+
+[:h2 "Debugging Tips"]
+[:p "ClojureScript is a great new technology, but it is really new.  This means that its error message can be a bit obtuse.  Below are common, somewhat obscure error message and what they might mean when working with Specljs"]
+[:p "1. 'undefined is not an object'"]
+[:p "2.  'var is already aliased"]
+[:p ]

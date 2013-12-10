@@ -9,6 +9,6 @@
   :min-lein-version "2.0.0"
   :plugins [[speclj "2.9.0"]
             [lein-ring "0.8.8"]]
-  :test-paths ["spec"]
+;  :test-paths ["spec"]
   :ring {:handler speclj_www.core/app}
   )
