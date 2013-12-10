@@ -1,6 +1,6 @@
 [:h2 "Specljs and ClojureScript"]
-[:h3 "Specljs versus Speclj"]
-[:p "Specljs is basically Speclj for ClojureScript.  About 98% of Specljs works just like Speclj.  But there are a few differences.  This section lists out the differences between Speclj and Specljs"]
+[:h3 "Specljs vs Speclj"]
+[:p "Specljs is just Speclj for ClojureScript.  About 98% of Specljs works just like Speclj.  But there are a few differences.  This section lists the differences between Speclj and Specljs"]
 
 [:h3 "Differences Between Specljs and Speclj"]
 

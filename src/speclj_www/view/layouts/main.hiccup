@@ -24,10 +24,10 @@
             [:li [:a {:href "/tutorial"} "Tutorial"]]
             (if (= "tuto" (subs (*request* :uri) 1 5))
               [:li (render-partial "partials/tutorial_sidebar")])
-            [:li [:a {:href "/specljs"} "Specljs"]]
             [:li [:a {:href "/docs"} "Documentation"]]
             (if (= "docs" (subs (*request* :uri) 1 5))
               [:li (render-partial "partials/doc_sidebar")])
+            [:li [:a {:href "/specljs"} "Specljs"]]
             [:li [:a {:href "/plugins"} "Plugins"]]
             (if (= "plug" (subs (*request* :uri) 1 5))
               [:li (render-partial "partials/plugins_sidebar")])
