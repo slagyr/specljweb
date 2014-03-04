@@ -4,7 +4,7 @@
     [:meta {:http-equiv "Content-Type" :content "text/html" :charset "utf-8"}]
     [:title "Clojure Testing Framework | Speclj"]
     (include-css "/stylesheets/reset.css")
-    (include-css "/stylesheets/speclj.css")
+    (include-css "/stylesheets/speclj_main.css")
     (include-css "/stylesheets/clojure_code_highlight.css")
     (include-css "/stylesheets/shThemeDefault.css")
     (include-css "/stylesheets/shCore.css")
@@ -18,7 +18,7 @@
     [:div {:id "header"}
       [:div {:id "head_body"}
         [:a {:href "/"} [:img {:class "speclj" :src "/images/speclj.png"}]]
-        [:p "a <abbr>TDD</abbr>/<abbr>BDD</abbr> framework for Clojure"]
+        [:p "a <abbr>TDD</abbr>/<abbr>BDD</abbr> framework for Clojure and ClojureScript"]
         [:h4 "pronounced \"speckle\" [spec-uhl]"]]]
     [:div {:id "main"}
       [:div {:id "main_body"}
