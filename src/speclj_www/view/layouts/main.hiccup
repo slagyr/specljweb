@@ -18,7 +18,7 @@
     [:div {:id "header"}
       [:div {:id "head_body"}
         [:a {:href "/"} [:img {:class "speclj" :src "/images/speclj.png"}]]
-        [:p "a <abbr>TDD</abbr>/<abbr>BDD</abbr> framework for Clojure"]
+        [:p "a <abbr>TDD</abbr>/<abbr>BDD</abbr> framework for Clojure and ClojureScript"]
         [:h4 "pronounced \"speckle\" [spec-uhl]"]]]
     [:div {:id "main"}
       [:div {:id "main_body"}
