@@ -1,9 +1,10 @@
-[:h3 "Installation"]
+[:h1 "Installation"]
 [:p "In order to install Speclj, you must have <a href=\"https://github.com/technomancy/leiningen\" target=\"_blank\">Leiningen</a> version 2.0 or later."]
 
 
+[:h2 "Clojure"]
 [:div {:id "lein_install"}
- [:h4 "Install with Leiningen"]
+ [:h3 "Install with Leiningen"]
  [:ul
   [:li "Include speclj in your :profile, :plugins and add \"spec\" to the :test-paths array.
    <pre><code>
@@ -14,10 +15,72 @@
   [:li "Leiningen will download Speclj the first time you run a spec."]]
 ]
 
+[:pre {:class "brush: clojure"}
+":cljsbuild ~(let [run-specs [\"bin/speclj\" \"target/tests.js\"]]
+              {:builds
+               {:dev {:source-paths [\"src/cljs\"  \"spec/cljs\"]
+                      :compiler {:output-to \"target/tests.js\"
+                                 :pretty-print true}
+                      :notify-command run-specs
+                      }}
+               :test-commands {\"test\" run-specs}})
+
+}"]
+
 [:div {:id "man_install"}
- [:h4 "Install Manually"]
+ [:h3 "Install Manually"]
  [:ul
   [:li "Make sure you have <a href=\"http://git-scm.com\" target=\"_blank\">Git</a>"]
   [:li "Check out the source code from our <a href=\"https://github.com/slagyr/speclj\">repository</a>."]
   [:li "Run \"lein jar\" from your terminal while in the speclj directory."]]
 ]
+
+[:h2 "ClojureScript"]
+[:div {:id "lein_install"}
+ [:ul
+  [:li "Include speclj in your :profile and :plugins.
+   <pre><code>
+    :profiles {:dev {:dependencies [[speclj \"2.5.0\"]]}}
+    :plugins [[speclj \"2.5.0\"]]
+    :test-paths [\"spec\"]</code></pre>"]
+  [:br]
+  [:li "Add the code below to your ':cljsbuild' map.  Adjust your 'src' and 'spec' locations accordingly."]]
+
+[:pre {:class "brush: clojure"}
+":cljsbuild ~(let [run-specs [\"bin/speclj\" \"target/tests.js\"]]
+              {:builds
+               {:dev {:source-paths [\"src/cljs\"  \"spec/cljs\"]
+                      :compiler {:output-to \"target/tests.js\"
+                                 :pretty-print true}
+                      :notify-command run-specs
+                      }}
+               :test-commands {\"test\" run-specs}})
+
+}"]]
+
+[:li "Create a file named 'speclj' in your 'bin' directory:"]
+
+[:pre {:class "brush: clojure"}
+"#! /usr/bin/env phantomjs
+
+var fs = require(\"fs\");
+var p = require('webpage').create();
+var sys = require('system');
+
+p.onConsoleMessage = function (x) {
+fs.write(\"/dev/stdout\", x, \"w\");
+};
+
+p.injectJs(phantom.args[0]);
+
+var result = p.evaluate(function () {
+speclj.run.standard.armed = true;
+return speclj.run.standard.run_specs(
+cljs.core.keyword(\"color\"), true
+);
+});
+
+phantom.exit(result);"]
+
+[:li "Now the files in your spec folder should run"]
+
