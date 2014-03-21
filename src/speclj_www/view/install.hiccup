@@ -38,16 +38,16 @@
 [:h2 "ClojureScript"]
 [:div {:id "lein_install"}
  [:ul
-  [:li "Include speclj in your :profile and :plugins.
+  [:li "Include speclj in your <b>:profile</b> and <b>:plugins</b>:
    <pre><code>
     :profiles {:dev {:dependencies [[speclj \"2.5.0\"]]}}
     :plugins [[speclj \"2.5.0\"]]
-    :test-paths [\"spec\"]</code></pre>"]
+    :test-paths [\"spec\"]
+  </code></pre>"]
   [:br]
-  [:li "Add the code below to your ':cljsbuild' map.  Adjust your 'src' and 'spec' locations accordingly."]]
-
-[:pre {:class "brush: clojure"}
-":cljsbuild ~(let [run-specs [\"bin/speclj\" \"target/tests.js\"]]
+  [:li "Add the code below to your ':cljsbuild' map.  Adjust your 'src' and 'spec' locations accordingly.
+<pre><code>
+:cljsbuild ~(let [run-specs [\"bin/speclj\" \"target/tests.js\"]]
               {:builds
                {:dev {:source-paths [\"src/cljs\"  \"spec/cljs\"]
                       :compiler {:output-to \"target/tests.js\"
@@ -56,12 +56,13 @@
                       }}
                :test-commands {\"test\" run-specs}})
 
-}"]]
+}
+</code></pre>"]
 
-[:li "Create a file named 'speclj' in your 'bin' directory:"]
-
-[:pre {:class "brush: clojure"}
-"#! /usr/bin/env phantomjs
+[:br]
+[:li "Create a file named 'speclj' in a 'project-source/bin' directory and copy the contents below:
+<pre><code>
+#! /usr/bin/env phantomjs
 
 var fs = require(\"fs\");
 var p = require('webpage').create();
@@ -80,7 +81,10 @@ cljs.core.keyword(\"color\"), true
 );
 });
 
-phantom.exit(result);"]
+phantom.exit(result);
+</code></pre>"]
 
+[:br]
 [:li "Now the files in your spec folder should run"]
+ ]]
 
