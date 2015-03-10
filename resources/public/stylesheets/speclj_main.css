@@ -209,8 +209,8 @@ div#nav ul li ul {
 div#content {
 	margin-top: 3.7em;
 	margin-bottom: 2em;
-	float: left;
-	width: 500px;
+	/*float: left;*/
+	/*width: 500px;*/
 }
 
 div#lein_install {

@@ -22,7 +22,7 @@
         [:h4 "pronounced \"speckle\" [spec-uhl]"]]]
     [:div {:id "main"}
       [:div {:id "main_body"}
-        [:div {:id "nav"}
+        #_[:div {:id "nav"}
           [:ul
             [:li [:a {:href "/install"} "Installation"]]
             [:li [:a {:href "/tutorial"} "Tutorial"]]
@@ -46,4 +46,4 @@
           " | "
           [:a {:href "https://github.com/slagyr/speclj/" :target "_blank"} "Git Repository"]]
         [:br]
-        [:span "Copyright &copy; 2011-2013 Micah Martin All Rights Reserved"]]]]]
+        [:span "Copyright &copy; 2011-2015 Micah Martin All Rights Reserved"]]]]]

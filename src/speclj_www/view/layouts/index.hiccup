@@ -5,11 +5,11 @@
     [:title "Clojure Testing Framework | Speclj"]
     (include-css "/stylesheets/reset.css")
     (include-css "/stylesheets/speclj_main.css")
-    (include-css "/stylesheets/clojure_code_highlight.css")
-    (include-css "/stylesheets/shThemeDefault.css")
-    (include-css "/stylesheets/shCore.css")
-    (include-js "/javascript/shCore.js")
-    (include-js "/javascript/shBrushClojure.js")
+    ;(include-css "/stylesheets/clojure_code_highlight.css")
+    ;(include-css "/stylesheets/shThemeDefault.css")
+    ;(include-css "/stylesheets/shCore.css")
+    ;(include-js "/javascript/shCore.js")
+    ;(include-js "/javascript/shBrushClojure.js")
     [:link {:rel "stylesheet" :type "text/css" :href "http://fonts.googleapis.com/css?family=Rosario:400,400italic"}]
     "<!--[if IE]>"
       "<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>"
@@ -22,7 +22,7 @@
         [:h4 "pronounced \"speckle\" [spec-uhl]"]]]
     [:div {:id "main"}
       [:div {:id "main_body"}
-        [:div {:id "nav"}
+        #_[:div {:id "nav"}
           [:ul
             [:li [:a {:href "/install"} "Installation"]]
             [:li [:a {:href "/tutorial"} "Tutorial"]]
@@ -40,4 +40,4 @@
           " | "
           [:a {:href "https://github.com/slagyr/speclj/" :target "_blank"} "Git Repository"]]
         [:br]
-        [:span "Copyright &copy; 2011-2014 Micah Martin All Rights Reserved"]]]]]
+        [:span "Copyright &copy; 2011-2015 Micah Martin All Rights Reserved"]]]]]
